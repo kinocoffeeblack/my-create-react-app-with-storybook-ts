@@ -1,0 +1,9 @@
+@import './Variables.scss';
+
+.sass {
+  padding: 1rem;
+  // sass文法が有効である確認のため無意味に入れ子にしてます
+  &SampleStyle {
+    background-color: $colorOfSass;
+  }
+}
